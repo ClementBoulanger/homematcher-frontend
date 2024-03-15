@@ -27,7 +27,7 @@ function Profil() {
 
 //Modifier les données pour le fetch
     useEffect(() => {
-        fetch('https://homematcher-backend-six.vercel.app/users', {
+        fetch('http://localhost:3000/users', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -55,7 +55,7 @@ function Profil() {
       }, []);
 
 const handleSubmit = () => {
-    fetch('https://homematcher-backend-six.vercel.app/users/update', {
+    fetch('http://localhost:3000/users/update', {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',

@@ -87,7 +87,7 @@ function AddRealty() {
     const file = e.target.files[0];
     const formData = new FormData()
     formData.append('photoFromFront', file)
-    fetch('https://homematcher-backend-six.vercel.app/realtys/upload', {
+    fetch('http://localhost:3000/realtys/upload', {
       method: "POST",
       body: formData
     }).then(response => response.json())
@@ -96,7 +96,7 @@ function AddRealty() {
 
   const handleAddRealty = () => {
     if (validateFields()) {
-      fetch('https://homematcher-backend-six.vercel.app/realtys/addRealtys', {
+      fetch('http://localhost:3000/realtys/addRealtys', {
         method: "POST",
         headers: { 
           'Content-Type': 'application/json',
