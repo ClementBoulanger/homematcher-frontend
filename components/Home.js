@@ -44,7 +44,7 @@ function Home() {
       </div>
 
       <div className={styles.middleContent}>
-        <h1 className={styles.title}>Quel est votre Projet ?</h1>
+        <h1 className={styles.title}>Quel est votre projet ?</h1>
         <button className={styles.achat} onClick={handleAcheterClick}>Acheter</button><br></br>
         <button className={styles.vente} onClick={handleVendreClick}>Vendre</button>
       </div>
