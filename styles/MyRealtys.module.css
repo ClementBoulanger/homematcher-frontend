@@ -1,7 +1,6 @@
 /* MyRealtys.module.css */
 
 .main {
-  display: grid;
   grid-template-rows: auto 1fr; /* Ajout d'une ligne automatique pour le header et le reste pour le contenu */
   width: 100vw;
   min-height: 100vh;
@@ -16,8 +15,8 @@
 .btnContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 2%; 
+  
 }
 
 .container {

@@ -125,7 +125,7 @@ function Seller() {
                     <button onClick={handleSubmit} className={styles.button}>Recherche</button>
                 </div>
             </div>
-            <div className={styles.card}>
+            <div className={styles.cardSeller}>
             {card && card.length > 0 ? (
                     <div className={styles.cardContent}>
                         <img src={card[index].selectedImage} height={100} width={100}/>
